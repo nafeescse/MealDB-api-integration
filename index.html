@@ -1,0 +1,41 @@
+gi<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Database</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .ytube{
+            background-color:rgb(6, 155, 255);
+            color: white;
+            padding: 5px 10px;
+            text-decoration: none;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center text-danger pt-5 pb-2">Welcome FOODIES </h1>
+    <div class="input-group mb-3 w-50 mx-auto">
+        <input type="text" id="button-search" class="form-control" placeholder="Search your favorite food here..." aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="searchFood()" class="btn btn-outline-secondary" type="button" >Search</button>
+      </div>
+
+      <div id="load-alert" class="mx-auto p-5 border-3 rounded-3 ">
+      </div>
+
+
+      <div id="search-Result" class="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4 mx-5">
+        <!-- <div class="col">
+          
+        </div> -->
+      </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="meal.js"></script>
+</body>
+</html>
